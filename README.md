@@ -1,6 +1,5 @@
 # gdax-bitso-exchange-rate
-get effective exchange rate of USD to MXN for arbitraging gdax and bitso
-
+for each currency common to both exchanges, prints the bitso MXN price, gdax USD price, and the first of those divided by the second
 ```
 >>> from compare_gdax_bitso import *
 >>> init_all_tickers()
